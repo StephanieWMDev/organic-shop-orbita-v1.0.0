@@ -1,11 +1,6 @@
-.button{
-  background-color:black;
-}
-.shopify-payment-button__button{
-  background-color:#306F3E;
-  color:white;
-}
-.shopify-payment-button__button--unbranded{
+
+
+button .shopify-payment-button__button .shopify-payment-button__button--unbranded{
   background-color:#306F3E;
   color:white;
 }
