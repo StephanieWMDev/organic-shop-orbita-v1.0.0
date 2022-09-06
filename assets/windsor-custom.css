@@ -1,6 +1,6 @@
 
 
-button .shopify-payment-button__button .shopify-payment-button__button--unbranded{
+shopify-payment-button{
   background-color:#306F3E;
   color:white;
 }
