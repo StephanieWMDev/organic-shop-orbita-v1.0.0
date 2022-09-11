@@ -1,5 +1,10 @@
 {
   "sections": {
+    "1662872913055dae13": {
+      "type": "hero",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -222,13 +227,19 @@
         "html_area": ""
       }
     },
-    "1662872913055dae13": {
-      "type": "hero",
+    "1662873178f7a47459": {
+      "type": "custom-liquid",
+      "disabled": true,
       "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
+    "1662872913055dae13",
     "image_banner",
     "rich_text",
     "featured_collection",
@@ -236,6 +247,6 @@
     "video",
     "multicolumn",
     "16628728962a1cca3c",
-    "1662872913055dae13"
+    "1662873178f7a47459"
   ]
 }
