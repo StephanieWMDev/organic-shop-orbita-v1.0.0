@@ -213,6 +213,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16628728962a1cca3c": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "1662872913055dae13": {
+      "type": "hero",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -221,6 +234,8 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "16628728962a1cca3c",
+    "1662872913055dae13"
   ]
 }
