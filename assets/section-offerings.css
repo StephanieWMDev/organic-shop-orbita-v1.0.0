@@ -1,0 +1,254 @@
+         
+    
+        :root{
+
+            --fs-xl: 2.15rem;
+            --fs-600: 1.95rem;
+            --fs-500: 1.95rem;
+            --fs-400: calc(1.5rem + 0.390625vw);
+            
+         }
+ .offering-wrapper{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:16px 16px;
+  /* border:1rem double rgba(49, 94, 19, 0.194); */
+  padding:32px 0.2rem;
+               
+} 
+     
+.offerings-container{
+  
+  margin:0 auto;
+  /* border:1rem double rgba(20, 80, 4, 0.204); */
+  padding:2rem 0.1rem;
+  box-sizing: content-box;
+  width:90%;
+    
+}
+.offer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding:0 2rem;
+    margin:0 1rem;
+    max-width:280px;
+    position:relative;
+    right:1rem;
+}
+.sum-offer{
+  color:rgba(52, 50, 48, 0.84);
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    word-spacing:0.1rem;
+    font-size:var(--fs-500);
+    padding:3%;
+    vertical-align: baseline;
+    text-decoration:overline;
+    text-decoration-color: rgba(0, 128, 0, 0.268);
+    text-decoration-thickness: 0.2rem;
+ 
+    padding-top:0px;
+    border-spacing: 20px;
+    border-collapse: separate;
+    text-underline-offset:50px;
+   
+    
+
+}
+.sum-p-offer{
+    font-family: 'Fjalla One', sans-serif;
+    justify-content: center;
+    align-self: center;
+    text-align: justify;
+    letter-spacing: 0.2rem;
+    word-spacing:0.1rem;
+    font-size:var(--fs-400);
+    display:flex;
+    flex-wrap:wrap;
+    padding:3%;
+    margin-left:1em;
+    margin-bottom:1em;
+    vertical-align: baseline;
+    color:rgb(56, 56, 64);
+
+}
+
+/*---------------------------------------IMAGE-----*/
+
+
+
+
+.img-expo{
+    
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    max-width:270px;
+    max-height: 12em;
+    margin:0 1rem;
+    padding: 0.2rem 1rem;
+    padding-bottom:5rem;
+
+}
+@media screen and (min-width:320px){
+.offer{
+    font-size: 8rem;
+}
+
+}
+@media screen and (min-width:360px){
+    
+  
+}
+@media screen and (min-width:375px){
+    
+    .offer{
+        max-width:320px;
+
+    }
+    .img-expo{
+        max-width:300px;
+        max-height: 10em;
+        position:relative;
+        left:1rem;
+
+    }
+  
+}
+@media screen and (min-width:412px){
+    
+  
+}
+@media screen and (min-width:600px){
+    
+  
+}
+@media screen and (min-width:768px){
+    
+  
+}
+ 
+@media screen and (min-width:1024px){
+    
+  
+}
+@media screen and (min-width:1134px){
+    
+  
+}
+@media screen and (min-width:1280px){
+    
+  
+}
+@media screen and (min-width:1920px){
+    
+  
+}
+
+
+@media screen and (min-width: 800px){
+    .offer{
+        justify-content:space-around;
+        display:grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        grid-template-areas: "juice-text juice-expo"
+        "schulz-sum-div schulz-expo"
+        "org-text-grid org-img-grid";
+        row-gap: 0;
+        margin-bottom:2.5rem;
+        margin-top:1em;
+        position:relative;
+        left:-1.5rem;
+        column-gap: 80%;
+    
+       
+    }
+    .offerings-container{
+  
+        margin:0 auto;
+        /* border:1rem double rgba(20, 80, 4, 0.204); */
+        padding:2rem 10rem;
+        box-sizing: content-box;
+        width:37em;
+          
+      }
+    
+    
+     .sum-offer{
+        width:14em;
+     }
+     .text-offer{
+        position:relative;
+        left:1rem;
+        bottom:2rem;
+     }
+     .juice-text{
+        grid-area:1;
+      
+        
+     }
+     .juice-expo{
+        grid-area:1/2;
+        align-self:center;
+        
+     }
+    .schulz-sum-div{
+        grid-area:2;
+
+    }
+    .schulz-expo{
+        grid-area:2/2;
+        align-self:center;
+       
+
+    }
+    .org-text-grid{
+        grid-area:3;
+    }
+    .org-img-grid{
+        grid-area:3/2;
+   
+    }
+    .img-expo{
+        max-width:10em;
+        position:relative;
+        margin-bottom:4rem;
+        border:1px rgba(0, 0, 0, 0.141) solid;
+        padding:4%;
+        background-color:rgba(246, 246, 237, 0.689);
+        position:relative;
+        left:2em;
+        
+    }
+    .juice-expo{
+        position:relative;
+        top:1rem;
+    }
+    .schulz-expo{
+        position:relative;
+   top:1.6rem;
+    }
+    .schulz-sum{
+        
+    }
+    .org-img-grid{
+        position:relative;
+        top:3.2rem;
+    }
+    .org-text-grid{
+        position:relative;
+        bottom:4.6rem;
+    }
+  
+} 
+@media screen and (min-width:1024){
+.offer{
+    position:relative;
+    left:4rem;
+}
+}

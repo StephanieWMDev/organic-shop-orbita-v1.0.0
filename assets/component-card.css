@@ -8,12 +8,17 @@
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
+  margin-right:1rem;
+ 
 }
 
 .card:not(.ratio) {
   display: flex;
   flex-direction: column;
   height: 100%;
+  gap:4rem;
+  column-gap: 4rem;
+  
 }
 
 .card--card {

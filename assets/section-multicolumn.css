@@ -50,6 +50,16 @@
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+ 
+}
+@media screen and (min-width:1024px){
+  .multicolumn-lest{
+    width:144rem;
+    position: relative;
+      right: 19rem;
+
+  }
 }
 
 .multicolumn-list__item:only-child {
@@ -198,6 +208,10 @@
 .multicolumn-card {
   position: relative;
   box-sizing: border-box;
+  padding-left:2rem;
+  margin-left:2rem;
+  padding-right:2rem;
+  margin-right:2rem;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
