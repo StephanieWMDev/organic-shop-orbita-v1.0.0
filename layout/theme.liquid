@@ -251,7 +251,9 @@
     <script> {{ '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css | stylesheet_tag | styles.css\
       ][ | asset_url ' }}</script>
  
-   </head>
+   
+  {% render 'shogun-head' %}
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">

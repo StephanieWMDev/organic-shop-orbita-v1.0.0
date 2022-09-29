@@ -255,7 +255,9 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     <script> {{ '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css | stylesheet_tag | styles.css\
       ][ | asset_url ' }}</script>
  
-   </head>
+   
+  {% render 'shogun-head' %}
+</head>
 
   <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
