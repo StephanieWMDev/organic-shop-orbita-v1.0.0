@@ -5,34 +5,8 @@
       "settings": {
       }
     },
-    "1664422330cfd1ed36": {
-      "type": "video-bg",
-      "blocks": {
-        "1664422330b2243337-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/551f0c05bc4247888b1c469668f05a11.mov",
-            "video_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-29_at_1.44.23_pm.png",
-            "overlay_opacity": 80,
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "1664422330b2243337-0"
-      ],
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -254,11 +228,34 @@
       ],
       "settings": {
       }
+    },
+    "1664425741ebaefb5c": {
+      "type": "video-bg",
+      "blocks": {
+        "16644257410add67e7-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bd1b5580ac43447a813acc5146f3d250.mov",
+            "overlay_opacity": 0,
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16644257410add67e7-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "1662872913055dae13",
-    "1664422330cfd1ed36",
     "image_banner",
     "rich_text",
     "collage",
@@ -266,6 +263,7 @@
     "multicolumn",
     "166287382752cf98a1",
     "16628728962a1cca3c",
-    "1664422215b018402b"
+    "1664422215b018402b",
+    "1664425741ebaefb5c"
   ]
 }
