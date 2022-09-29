@@ -1,11 +1,73 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
- <div>
-    <h1>
+
+
+<!-- Hero Section -->
+{% comment %} <div class="hero-wrapper">
+    <div class="hero-bg"> 
+    
+      <div class="hero-container">
+        <div class="hero row-s blob">
+            <h5 class="hero-h5"><div>W</div><BR><div class="l-tag">I</div><BR><div>N</div><BR><div>D</div><BR><div class="l-tag">S</div><BR><div>O</div><BR><div>R </div><BR><BR><div>O</div><BR><div>R</div><BR><div>G</div><BR><div>A</div><BR><div>N</div><BR><div class="l-tag">I</div><BR><div>C</div><BR><div class="l-tag">S</div></h5>
+           <h1 class="hero-h1"><span class="shop-red">Shop The Real Produce. </span><br> Seasonal Fresh Food Box<br> by Windsor Organics.<br> 
+           <button href="" class="h-btn"><b>VIEW OPTIONS</b></button> </h1>
+           
+                <div class="img-hero">.</div>
+          
+           
         
-        <img src="{{ 'mustard-yellow-designify.png' | asset_url }}" loading="lazy" width="200" height="200" /> 
-        <span>WINDSOR ORGANICS</span>
-    </h1>
-</div> 
+       
+      </div>
+    </div>
+    
+</div> {% endcomment %}
+<section class="top-banner-section">
+    <!-- The CSS grid area that displays the image (layer 1) -->
+    <div class="banner-image-div">
+       
+    </div>
+    <!-- The CSS grid area that displays the semi-transparent gradient overlay (layer 2) -->
+    <div class="banner-overlay-div"></div>
+    <!-- The CSS grid area that displays the content (layer 3) -->
+    <div class="banner-text-div">
+      <span class="banner-text">
+        <span class="bg-callaction"><p class="banner-h1-text"><span class="overline-hero">Sh</span>op <br>The Real Food.</p></span>
+        <p class="banner-body-text">Seasonal Fresh Food Box<br> by Windsor Organics.<br> </p>
+        <p class="banner-btn"><a class="banner-btn-item" href="https://www.cambermast.com">VIEW OPTIONS &#8594;</a></p>
+      </span>
+    </div>
+  </section>
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Cormorant:ital,wght@0,500;1,700&family=Noto+Serif+Display&family=Oswald&family=Raleway:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Cormorant:wght@500&family=Noto+Serif+Display&family=Oswald&family=Raleway:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Noto+Serif+Display&family=Oswald&family=Raleway:wght@500&display=swap');
+</style>
+
+<script>
+function toggleMenu(){
+    const toggleMenu = document.querySelector
+}
+var node = document = querySelector('.hero-container');
+var yourHeight = '163px';
+
+// scroll to your element
+node.scrollIntoView(true);
+
+// now account for fixed header
+var scrolledY = window.scrollY;
+
+if(scrolledY){
+  window.scroll(0, scrolledY - yourHeight);
+}
+
+
+
+
+
+</script>
 
 
 {% schema %}

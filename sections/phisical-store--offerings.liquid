@@ -1,0 +1,60 @@
+{{ 'section-offerings.css' | asset_url | stylesheet_tag }}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+    </style>
+
+
+<div class="offerings-body ">
+<div class="offering-wrapper">
+<div class="offerings-container">
+
+    
+<div class="offer offer-grid">
+        <div class="text-offer juice-text">
+          <summary class="sum-offer text-offer juice-sum" ><b>Cold pressed Juices and smothies</b></summary>
+          <p class="sum-p-offer juice-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+    </div>
+    <div class="img-off juice-expo">
+     <img class="img-expo" src=" {{ 'view-from-above-1248949_1280.jpg' | asset_url }}" loading="lazy" width="300" height="200" />
+    </div>
+</div>
+
+<div class="offer schulz-offer offer-grid">
+    <div class="text-offer schulz-sum-div">
+      <summary class="sum-offer schulz-sum text-offer" ><b>Free range dairy</b></summary>
+     <p class="sum-p-offer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+   </div>
+
+   <div class=" img-off  schulz-expo">
+    <img class="img-expo" src=" {{ 'SD_LOGO_B_BLACK_RGB.png' | asset_url }}" loading="lazy" width="300" height="200" />
+   </div>
+
+</div>
+
+<div class="offer offer-grid">
+    <div class="text-offer org-text-grid">
+      <summary  class="sum-offer text-offer "> <b>Organic Produce</b></summary>
+      <p class="sum-p-offer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+   </div>
+   <div class="img-off  soft-skin-organic org-img-grid">
+     <img class="img-expo" src=" {{ 'mushrooms-3199517_1280.jpg' | asset_url }}" loading="lazy" width="300" height="280" />
+
+   </div>
+</div>
+
+</div>
+</div>
+</div>
+
+{% schema %}
+
+{ "name":"offerings",
+    "presets":[
+        {
+            "name":"offerings"
+        }
+
+    ]
+}
+
+    {% endschema %}
