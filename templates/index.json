@@ -5,6 +5,30 @@
       "settings": {
       }
     },
+    "16644257891b684566": {
+      "type": "video-bg",
+      "blocks": {
+        "1664425788428bec93-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91d2b191449846218c099beed660a703.mp4",
+            "overlay_opacity": 0,
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1664425788428bec93-0"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -228,34 +252,11 @@
       ],
       "settings": {
       }
-    },
-    "1664425741ebaefb5c": {
-      "type": "video-bg",
-      "blocks": {
-        "16644257410add67e7-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bd1b5580ac43447a813acc5146f3d250.mov",
-            "overlay_opacity": 0,
-            "title": "Video slide",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "16644257410add67e7-0"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "1662872913055dae13",
+    "16644257891b684566",
     "image_banner",
     "rich_text",
     "collage",
@@ -263,7 +264,6 @@
     "multicolumn",
     "166287382752cf98a1",
     "16628728962a1cca3c",
-    "1664422215b018402b",
-    "1664425741ebaefb5c"
+    "1664422215b018402b"
   ]
 }
