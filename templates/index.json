@@ -13,7 +13,7 @@
           "settings": {
             "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91d2b191449846218c099beed660a703.mp4",
             "overlay_opacity": 0,
-            "title": "Video slide",
+            "title": "",
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "color_text": "#ffffff",
             "button_label": "",
@@ -27,53 +27,6 @@
         "1664425788428bec93-0"
       ],
       "settings": {
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "rich_text": {
@@ -257,7 +210,6 @@
   "order": [
     "1662872913055dae13",
     "16644257891b684566",
-    "image_banner",
     "rich_text",
     "collage",
     "video",
