@@ -7,7 +7,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -231,6 +230,31 @@
         "feed_width": 100,
         "html_area": ""
       }
+    },
+    "1664422215b018402b": {
+      "type": "video-bg",
+      "blocks": {
+        "16644222157b66cfe2-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eec64e9d458d4adc9b34ef8f9512e475.mov",
+            "video_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-29_at_1.38.19_pm.png",
+            "overlay_opacity": 62,
+            "title": "S R U M P T I O U S",
+            "text": "",
+            "color_text": "#c8bdbd",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16644222157b66cfe2-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -242,6 +266,7 @@
     "video",
     "multicolumn",
     "166287382752cf98a1",
-    "16628728962a1cca3c"
+    "16628728962a1cca3c",
+    "1664422215b018402b"
   ]
 }
