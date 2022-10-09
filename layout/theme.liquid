@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
+  <head>{% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -46,17 +46,18 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-body-family: {{ 'Proxima Nova' }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-family: {{ 'Canela' }}, {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
+        
 
-        --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
-        --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --font-body-scale: {{ settings.body_scale | divided_by: 110.0 }};
+        --font-heading-scale: {{ settings.heading_scale | times: 1.5 | divided_by: settings.body_scale }};
 
         --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
@@ -214,7 +215,7 @@
           font-size: 1.6rem;
         }
       }
-      @media screen and (min-width: 1200px){
+      @media screen and (min-width: 1400px){
       .header {
     display: grid;
     grid-template-areas: "left-icon heading icons";
@@ -224,7 +225,11 @@
     padding-bottom: 1rem;
     width: 1405px !important;
     max-width: 1882px !important;
-   }
+      }
+    body {
+          font-size: 2.2rem;
+        }
+   
   }
     {% endstyle %}
 
@@ -280,19 +285,19 @@
     <style>
       @media screen and (min-width:1000px){
       .header__menu-item.header__menu-item{
-          font-size: 26px !important;
+          font-size:2.8rem !important;
       }
       
       .menu-drawer__menu.list-menu li *{
-          font-size: 16px !important;
+          font-size: 1rem !important;
       }
     }
       @media screen and (min-width: 320px) {
         .header__menu-item.header__menu-item {
-          font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+          font-size: calc(1rem + 6 * ((100vw - 320px) / 680));
         }
         .menu-drawer__menu.list-menu li * {
-          font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+          font-size: calc(1rem + 6 * ((100vw - 320px) / 680));
         }
       }
       </style>

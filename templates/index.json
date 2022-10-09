@@ -2,17 +2,19 @@
   "sections": {
     "1662872913055dae13": {
       "type": "hero",
+      "disabled": true,
       "settings": {
       }
     },
-    "16644257891b684566": {
+    "1664422330cfd1ed36": {
       "type": "video-bg",
       "blocks": {
-        "1664425788428bec93-0": {
+        "1664422330b2243337-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91d2b191449846218c099beed660a703.mp4",
-            "overlay_opacity": 0,
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aa848583dd4a4721be059753c7c46697.mp4",
+            "video_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-29_at_1.44.23_pm.png",
+            "overlay_opacity": 80,
             "title": "",
             "text": "",
             "color_text": "#ffffff",
@@ -24,32 +26,43 @@
         }
       },
       "block_order": [
-        "1664425788428bec93-0"
+        "1664422330b2243337-0"
       ],
       "settings": {
       }
     },
-    "rich_text": {
+    "16646117750f108f74": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "heading": {
+        "1664611775ad7159f7-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>SHOP THE REAL FOOD.<\/p>",
+            "heading_size": "h2"
           }
         },
-        "text": {
+        "1664611775ad7159f7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Try our Fresh Food Boxes.<\/p>"
+          }
+        },
+        "1664611775ad7159f7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get started",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "1664611775ad7159f7-0",
+        "1664611775ad7159f7-1",
+        "1664611775ad7159f7-2"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -57,89 +70,43 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
-    "collage": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
+    "166287382752cf98a1": {
+      "type": "phisical-store--offerings",
       "disabled": true,
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
-    "multicolumn": {
+    "16646118131c6a22f6": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
-        "column1": {
+        "16646118131bafa4d4-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/mockup-graphics-nwjRmbXbLgw-unsplash-removebg-preview.png",
+            "title": "Sustainable",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "16646118131bafa4d4-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/mockup-graphics-paOhdpqcYuY-unsplash-removebg-preview.png",
+            "title": "Fresh",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "16646118131bafa4d4-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/thought-catalog-9aOswReDKPo-unsplash-removebg-preview.png",
+            "title": "Delicious",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -147,33 +114,190 @@
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "16646118131bafa4d4-0",
+        "16646118131bafa4d4-1",
+        "16646118131bafa4d4-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 92
+      }
+    },
+    "1664611924d8e3f632": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OUR BOXES  -->",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 92
+      }
+    },
+    "166468681415cf4c01": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664686814d10cf019-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "1664686814d10cf019-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664686814d10cf019-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664686814d10cf019-0",
+        "1664686814d10cf019-1",
+        "1664686814d10cf019-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-hanna-auramenka-8746880.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "166287382752cf98a1": {
-      "type": "phisical-store--offerings",
+    "1664686985dab16c96": {
+      "type": "image-with-text",
+      "blocks": {
+        "16646869858a754700-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "16646869858a754700-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16646869858a754700-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16646869858a754700-0",
+        "16646869858a754700-1",
+        "16646869858a754700-2"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/image.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "16628728962a1cca3c": {
+    "166468699485d6e750": {
+      "type": "image-with-text",
+      "blocks": {
+        "166468699307d2b443-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "166468699307d2b443-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166468699307d2b443-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166468699307d2b443-0",
+        "166468699307d2b443-1",
+        "166468699307d2b443-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/22091_FULLCREAM2L.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "1664611817517e2eab": {
       "type": "instafeed",
       "settings": {
         "heading_size": 20,
@@ -181,41 +305,27 @@
         "html_area": ""
       }
     },
-    "1664422215b018402b": {
-      "type": "video-bg",
-      "blocks": {
-        "16644222157b66cfe2-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eec64e9d458d4adc9b34ef8f9512e475.mov",
-            "video_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-29_at_1.38.19_pm.png",
-            "overlay_opacity": 62,
-            "title": "S R U M P T I O U S",
-            "text": "",
-            "color_text": "#c8bdbd",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "16644222157b66cfe2-0"
-      ],
+    "16646929300ed74d06": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "1662872913055dae13",
-    "16644257891b684566",
-    "rich_text",
-    "collage",
-    "video",
-    "multicolumn",
+    "1664422330cfd1ed36",
+    "16646117750f108f74",
     "166287382752cf98a1",
-    "16628728962a1cca3c",
-    "1664422215b018402b"
+    "16646118131c6a22f6",
+    "1664611924d8e3f632",
+    "166468681415cf4c01",
+    "1664686985dab16c96",
+    "166468699485d6e750",
+    "1664611817517e2eab",
+    "16646929300ed74d06"
   ]
 }

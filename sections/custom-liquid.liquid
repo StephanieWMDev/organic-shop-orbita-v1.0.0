@@ -9,6 +9,25 @@
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
+} 
+.container-test {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."; 
 }
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">

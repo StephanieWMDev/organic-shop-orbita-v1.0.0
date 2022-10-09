@@ -3,9 +3,11 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square"
+        "title": "OUR BOXES",
+        "sort": "date",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "columns_mobile": "1"
       }
     }
   },

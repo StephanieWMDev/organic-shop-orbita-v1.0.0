@@ -49,6 +49,7 @@
   .list-menu {
     list-style: none;
     padding: 0;
+    
     margin: 0;
     position: relative;
     
@@ -81,6 +82,16 @@
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
+    }
+  }
+  @media screen and (min-width:1200px){
+    .list-menu__item {
+      display: flex;
+      align-items: center;
+      line-height: calc(1 + 0.3 / var(--font-body-scale));
+      padding-left:2rem;
+    }
+    .list-menu{
     }
   }
 </style>

@@ -1,12 +1,25 @@
 .rich-text {
   z-index: 1;
+  position: relative;
+  position: relative;
+    WIDTH: 90%;
+    LEFT: 5%;
+    bottom: 18em;
+    background-color:transparent;
+    color:antiquewhite;
+    font-family: var(--font-heading-family);
+    font-weight: var(--font-heading-weight);
+    font-size: 3rem;
 }
 
 .rich-text__wrapper {
+  position:absolute;
   display: flex;
   justify-content: center;
   width: calc(100% - 4rem / var(--font-body-scale));
 }
+
+
 
 .rich-text:not(.rich-text--full-width) .rich-text__wrapper {
   margin: auto;
@@ -15,8 +28,103 @@
 
 .rich-text__blocks {
   width: 100%;
+  background-color:transparent;
 }
+@media screen and (min-width:280px){
+  .rich-text{
+    font-size:1.5rem;
+   position:absolute;
+   
 
+  }
+
+  .rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -20em;
+    left: 1.7em;
+}
+  }
+
+@media screen and (min-width:320px){
+  .rich-text{
+    font-size:1.5rem;
+   position:absolute;
+   
+
+  }
+  
+}
+  @media screen and (min-width:360px){
+
+
+    .rich-text__blocks {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: -8em;
+        left: 1.7em;
+    }
+      }
+  @media screen and (min-width:375px){
+
+
+.rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -10em;
+    left: 1.7em;
+}
+  }
+  @media screen and (min-width:390px){
+
+
+    .rich-text__blocks {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: -16em;
+        left: 1.7em;
+    }
+      }
+  @media screen and (min-width:412px){
+  .rich-text__wrapper {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 4rem / var(--font-body-scale));
+    left:-2rem;
+
+  
+  }
+  .rich-text{
+    font-size:2.9rem;
+   position:absolute;
+
+  }
+
+  .rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -0em;
+    left: 1.7em;
+}
+ 
+}
+@media screen and (min-width:414px){
+
+
+.rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -2em;
+    left: 0;
+}
+}
 @media screen and (min-width: 750px) {
   .rich-text__wrapper {
     width: 100%;
@@ -33,6 +141,33 @@
   .rich-text__blocks {
     max-width: 50rem;
   }
+}
+@media screen and (min-width: 768px) {
+  .rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -2em;
+    left: 17%;
+}
+}
+@media screen and (min-width: 820px) {
+  .rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -2em;
+    left: 18%;
+}
+}
+@media screen and (min-width: 912px) {
+  .rich-text__blocks {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: -5.5em;
+    left: 22%;
+}
 }
 
 @media screen and (min-width: 990px) {
@@ -83,4 +218,62 @@
 
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
+}
+.rich-text__heading, h2{
+  font-weight:var(--font-heading-weight);
+  font-family: var(--font-heading-family);
+  color:rgb(249, 181, 92);
+  font-size-adjust: var(--font-body-scale);
+}
+@media screen and (min-width:1024px){
+  .rich-text__wrapper {
+    position:absolute;
+    bottom:-10em;
+    left:-.3%;
+    
+  
+   
+
+  }
+}
+@media screen and (min-width:1200px){
+  .rich-text__wrapper {
+    position:absolute;
+    top:14em;
+    left:-4%;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 4rem / var(--font-body-scale));
+   
+  }
+}
+@media screen and (min-width:1400px){
+  .rich-text__wrapper {
+    position:absolute;
+    top:2em;
+    left:5.5%;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 4rem / var(--font-body-scale));
+   
+  }
+ 
+}
+@media screen and (min-width:1400px){
+  .rich-text__wrapper {
+    position:absolute;
+    top:13em;
+    left:9.5%;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 4rem / var(--font-body-scale));
+   
+  }
+ 
+}
+@media screen and (min-width:1900px){
+  .rich-text .content-container .color-background-1 .gradient .rich-text--full-width .content-container--full-width .section-template--16516197908730__16646117750f108f74-padding{
+    margin:auto;
+    width: calc(100% - 8rem / var(--font-body-scale));
+  }
 }
