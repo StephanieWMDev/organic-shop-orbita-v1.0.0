@@ -313,6 +313,160 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1664856792d41c0500": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1664856792fb0a92f9-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-hanna-auramenka-8746880.jpg",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1664856792fb0a92f9-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22091_FULLCREAM2L.jpg",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1bbf0226-e5b5-44fe-a586-59a8aadda72e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.webp",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1664856792fb0a92f9-0",
+        "1664856792fb0a92f9-1",
+        "1bbf0226-e5b5-44fe-a586-59a8aadda72e"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1664856798cfcb8fcc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "16648567982fee51d0-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Order our fresh produce boxes",
+            "icon": "apple",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16648567982fee51d0-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Subscriptions availaible",
+            "icon": "carrot",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16648567982fee51d0-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We deliver to your door",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "16648567982fee51d0-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16648567982fee51d0-0",
+        "16648567982fee51d0-1",
+        "16648567982fee51d0-2",
+        "16648567982fee51d0-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "How it works",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f8e9f561-bc04-446a-ac94-f4ccdaaaadd2": {
+      "type": "parallax-featured-product",
+      "settings": {
+        "img_product": "shopify:\/\/shop_images\/pexels-hanna-auramenka-8746880.jpg",
+        "txt_button": "",
+        "featured_product_handle": ""
+      }
+    },
+    "17432e6b-4eaf-4fdc-886b-9a917bb4e4ff": {
+      "type": "page",
+      "settings": {
+        "page": "gallery",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -326,6 +480,10 @@
     "1664686985dab16c96",
     "166468699485d6e750",
     "1664611817517e2eab",
-    "16646929300ed74d06"
+    "16646929300ed74d06",
+    "1664856792d41c0500",
+    "1664856798cfcb8fcc",
+    "f8e9f561-bc04-446a-ac94-f4ccdaaaadd2",
+    "17432e6b-4eaf-4fdc-886b-9a917bb4e4ff"
   ]
 }

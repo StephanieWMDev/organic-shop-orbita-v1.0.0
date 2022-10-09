@@ -271,9 +271,3 @@
   }
  
 }
-@media screen and (min-width:1900px){
-  .rich-text .content-container .color-background-1 .gradient .rich-text--full-width .content-container--full-width .section-template--16516197908730__16646117750f108f74-padding{
-    margin:auto;
-    width: calc(100% - 8rem / var(--font-body-scale));
-  }
-}

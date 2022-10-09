@@ -1,0 +1,17 @@
+{{ 'gallery-dev.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+ <div class="grid">
+  <div class="grid_item medium-up--five-sixths mediu-up--push-one-twelfth">
+   <div class="section-header text-center">
+   <h1>{{ page.title }}</h1>
+   </div>
+
+   <div class="rte">
+    <div id="gallery-page">
+     {{ page.content }}
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

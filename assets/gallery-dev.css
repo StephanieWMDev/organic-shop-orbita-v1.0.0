@@ -1,0 +1,17 @@
+#gallery-page td {
+border: 0;
+}
+
+.full-width {
+width: 80%;
+margin: auto;
+}
+ width the first css style  
+ #gallery-page td { 
+  border: 0;  
+ } 
+changing 0 by  “2px solid black;”
+.full-width {
+  width: 80%;
+margin: auto;
+}
